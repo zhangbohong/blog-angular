@@ -1,0 +1,14 @@
+<header class='header' nz-row
+        [ngClass]="[ blueBg && canchange ? 'blue-Bg' : 'transparent-Bg', canchange ? 'be-fixed' : 'be-relative' ]">
+  <div class='login' [routerLink]="['/routes/signin']" nz-col [nzXs]="2" [nzSm]="4" [nzMd]="6" [nzLg]="8" [nzXl]="10">
+    <div style="width:1200px;position:absolute;top:0px;height:36px;z-index:119;margin: 8px 0 0 40px;">
+      <span style="font-size: 13px; font-family: 微软雅黑;">
+      欢迎光临裕隆同泰节能科技有限公司网站！
+      </span>
+      <a href="#" class="bmark"
+         style="color: rgba(255,255,255,0.47); font-family: Microsoft YaHei; font-size: 13px;float: right;">
+        设为首页
+      </a>
+    </div>
+  </div>
+</header>

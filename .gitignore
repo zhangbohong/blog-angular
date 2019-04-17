@@ -44,3 +44,4 @@ testem.log
 Thumbs.db
 .beiwang.md
 /dist/
+package-lock.json
